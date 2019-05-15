@@ -1,0 +1,8 @@
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+@mixin backgroundImg {
+  &#background-image {
+    background: $image__background-image;
+  }
+}
