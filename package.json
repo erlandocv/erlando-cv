@@ -1,0 +1,19 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "ErlandoCV",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ezgg@bitbucket.org/ezgg/bettercv.git"
+  },
+  "author": "Erlandas",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/ezgg/bettercv#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
