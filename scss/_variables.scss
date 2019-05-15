@@ -14,8 +14,10 @@ $color__text-secondary: $color__palette-orange;
 $color__text-navbar: $color__palette-orange;
 $color__text-icons: $color__palette-orange;
 $color__text-regular: $color__palette-light;
+$color__text-active: $color__palette-light;
 
-$color__btn-line: $color__palette-light;
+$color__btn-line: $color__palette-orange;
+$color__picture-border: $color__palette-orange;
 
 $primary-color: #496ddb;
 $secondary-color: #ee8434;
@@ -31,5 +33,6 @@ $font__body-heading: $font-family-lobster;
 
 // Images
 
-$image__background-image: url("https://scontent.fplq1-1.fna.fbcdn.net/v/t1.0-9/35114034_1918149504871339_1587150686871617536_o.jpg?_nc_cat=104&_nc_ht=scontent.fplq1-1.fna&oh=3223cee1d514572b66f782c84557d8aa&oe=5D5CC7D2");
+$image__background-image: url("https://i.imgur.com/SBBdgrD.jpg");
 $image__background-opacity: 0.9;
+$image__profile-image: url("https://i.imgur.com/ar3oz6j.png");
