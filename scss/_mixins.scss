@@ -19,3 +19,27 @@
     }
   }
 }
+
+@mixin mediaSm {
+  @media screen and (max-width: 540px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 720px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 721px) and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
