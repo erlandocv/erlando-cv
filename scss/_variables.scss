@@ -15,17 +15,19 @@ $color__text-navbar: $color__palette-orange;
 $color__text-icons: $color__palette-orange;
 $color__text-regular: $color__palette-light;
 
+$color__btn-line: $color__palette-light;
+
 $primary-color: #496ddb;
 $secondary-color: #ee8434;
 $body-color: #c95d63;
 
 // Fonts
 
-@import url("https://fonts.googleapis.com/css?family=Akronim|Maiden+Orange");
+@import url("https://fonts.googleapis.com/css?family=Lobster|Maiden+Orange");
 $font-family-maidan: "Maidan Orange", cursive;
-$font-family-akronim: "Akronim", cursive;
+$font-family-lobster: "Lobster", cursive;
 $font__body-text: $font-family-maidan;
-$font__body-heading: $font-family-akronim;
+$font__body-heading: $font-family-lobster;
 
 // Images
 
