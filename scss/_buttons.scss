@@ -1,0 +1,26 @@
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 3px solid $color__border-idle;
+  margin-bottom: 0.3rem;
+  color: $color__text-regular;
+  border-radius: 5%;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.9;
+    border-color: $color__picture-border;
+
+    @include easeOut;
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background: $color__button-darkBg;
+}
+
+.btn-light {
+  @extend .btn;
+  background: $color__button-lightBg;
+}

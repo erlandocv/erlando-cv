@@ -89,6 +89,25 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+.btn, .btn-dark, .btn-light {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 3px solid #be5c7d;
+  margin-bottom: 0.3rem;
+  color: #f4e7ea;
+  border-radius: 5%;
+  text-align: center; }
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
+    opacity: 0.9;
+    border-color: #ff9000;
+    transition: all 0.5s ease-out; }
+
+.btn-dark {
+  background: #5f021f; }
+
+.btn-light {
+  background: #8c001a; }
+
 @media screen and (max-width: 720px) {
   main {
     align-items: center;
@@ -224,6 +243,18 @@ main {
     padding: 0.5rem;
     border-bottom: #ff9000 5px solid;
     color: #f4e7ea; }
+
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .projects img {
+    width: 100%;
+    border: 3px solid #be5c7d; }
+    .projects img:hover {
+      opacity: 0.5;
+      border-color: #ff9000;
+      transition: all 0.5s ease-out; }
 
 #footer {
   text-align: center;
