@@ -42,6 +42,19 @@
       height: 150px;
     }
   }
+
+  .about-info {
+    display: grid;
+    grid-gap: 30px;
+
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "first"
+      "second"
+      "third" !important;
+  }
 }
 
 @include mediaSm {
