@@ -69,7 +69,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("https://i.imgur.com/2eYmBqZ.png") center center;
+  background: url("https://www.suru.lt/srwrd/wp-content/uploads/2009/06/stacias-215x300.jpg") center center;
   border-radius: 50%;
   border: solid 3px #aa7b39;
 }
@@ -143,6 +143,8 @@
   main .lg-heading {
     line-height: 1;
     margin-bottom: 1rem;
+    word-wrap: break-word;
+    font-size: 5rem !important;
   }
 
   ul.menu-nav,
@@ -167,7 +169,7 @@ div.menu-branding.show {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("https://i.imgur.com/2eYmBqZ.png") center center;
+    background: url("https://www.suru.lt/srwrd/wp-content/uploads/2009/06/stacias-215x300.jpg") center center;
     width: 150px;
     height: 150px;
   }
