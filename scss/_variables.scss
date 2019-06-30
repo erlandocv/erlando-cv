@@ -1,42 +1,55 @@
 // Colors
-$color__palette-orange: #ff9000;
-$color__palette-bordeaux: #660000;
-$color__palette-pink: #be5c7d;
-$color__palette-red: #8c001a;
-$color__palette-beet: #5f021f;
-$color__palette-dark: #1a0005;
-$color__palette-light: #f4e7ea;
+// $color__palette-orange: #ff9000;
+// $color__palette-bordeaux: #660000;
+// $color__palette-pink: #be5c7d;
+// $color__palette-red: #8c001a;
+// $color__palette-beet: #5f021f;
+// $color__palette-dark: #1a0005;
+// $color__palette-light: #f4e7ea;
+$color__primary-0: #2a4e6e;
+$color__primary-1: #9b9fa2;
+$color__primary-2: #5b7388;
+$color__primary-3: #093257;
+$color__primary-4: #011f3a;
 
-$color__body-background: $color__palette-dark;
+$color__complement-0: #aa7b39;
+$color__complement-2: #d2b387;
+$color__complement-1: #faf5ef;
+$color__complement-3: #865105;
+$color__complement-4: #5a3500;
 
-$color__text-primary: $color__palette-pink;
-$color__text-secondary: $color__palette-orange;
-$color__text-navbar: $color__palette-orange;
-$color__text-icons: $color__palette-orange;
-$color__text-regular: $color__palette-light;
-$color__text-active: $color__palette-light;
+$color__body-background: $color__primary-0;
 
-$color__btn-line: $color__palette-orange;
-$color__picture-border: $color__palette-orange;
-$color__border-idle: $color__palette-pink;
-$color__hovered-button: $color__palette-pink;
-$color__button-lightBg: $color__palette-red;
-$color__button-darkBg: $color__palette-beet;
+$color__text-primary: $color__complement-1;
+$color__text-secondary: $color__primary-1;
+$color__text-navbar: $color__complement-1;
+$color__text-icons: $color__complement-0;
+$color__text-regular: $color__primary-4;
+$color__text-active: $color__complement-0;
+
+$color__btn-line: $color__primary-4;
+$color__picture-border: $color__complement-0;
+$color__border-idle: $color__primary-2;
+$color__hovered-button: $color__primary-0;
+$color__button-lightBg: $color__primary-1;
+$color__button-darkBg: $color__primary-2;
 
 // Fonts
 
-@import url("https://fonts.googleapis.com/css?family=Lobster|Maiden+Orange");
-$font-family-maidan: "Maidan Orange", cursive;
-$font-family-lobster: "Lobster", cursive;
-$font__body-text: $font-family-maidan;
-$font__body-heading: $font-family-lobster;
+// @import url("https://fonts.googleapis.com/css?family=Lobster|Maiden+Orange");
+// $font-family-maidan: "Maidan Orange", cursive;
+// $font-family-lobster: "Lobster", cursive;
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+$font-family-Oswald: "Oswald", sans-serif;
+$font__body-text: $font-family-Oswald;
+$font__body-heading: $font-family-Oswald;
 
 // Images
 
 $image__background-image: url("https://i.imgur.com/SBBdgrD.jpg");
 $image__background-opacity: 0.9;
-$image__profile-image: url("https://i.imgur.com/ar3oz6j.png");
-$image__profile-image-sm: url("https://i.imgur.com/qZfQEun.png");
+$image__profile-image: url("https://i.imgur.com/2eYmBqZ.png");
+$image__profile-image-sm: url("https://i.imgur.com/2eYmBqZ.png");
 $image__project-one: url("https://i.imgur.com/HbUIH4A.png");
 $image__project-two: url("https://i.imgur.com/HbUIH4A.png");
 $image__project-three: url("https://i.imgur.com/HbUIH4A.png");

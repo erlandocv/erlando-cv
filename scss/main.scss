@@ -93,6 +93,7 @@ main {
     height: 250px;
     border-radius: 50%;
     border: solid 3px $color__picture-border;
+    object-fit: cover;
   }
 
   .bio {
